@@ -9,7 +9,7 @@ public class VMDaring : MonoBehaviour
     public float rotSpeed = 20;
     public float acceleration = 5;
     public float deceleration = 4;
-    public float turnSpeed = 4;
+    public float turnSpeed = 3;
     public float minSpeed = 0;
     public float maxSpeed = 15;
     public float breakAngle = 15;
