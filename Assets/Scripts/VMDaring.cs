@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VehicleMovement : MonoBehaviour
+public class VMDaring : MonoBehaviour
 {
     public Transform goal;
     public float speed = 0;
     public float rotSpeed = 20;
     public float acceleration = 5;
-    public float deceleration = 5;
-    public float turnSpeed = 2;
+    public float deceleration = 4;
+    public float turnSpeed = 4;
     public float minSpeed = 0;
-    public float maxSpeed = 10;
-    public float breakAngle = 20;
+    public float maxSpeed = 15;
+    public float breakAngle = 15;
 
     // Start is called before the first frame update
     void Start()
