@@ -50,16 +50,50 @@ public class FollowPath : MonoBehaviour
         }
     }
 
-    public void GoToHelipad()
+    public void Middle()
     {
         graph.AStar(currentNode, wps[0]);
         currentWaypointIndex = 0;
     }
 
+    public void GoToMountains()
+    {
+        graph.AStar(currentNode, wps[2]);
+        currentWaypointIndex = 0;
+    }
 
-    public void GoToRuins()
+    public void GoToBarracks()
+    {
+        graph.AStar(currentNode, wps[4]);
+        currentWaypointIndex = 0;
+    }
+
+    public void GoToCmdPost()
     {
         graph.AStar(currentNode, wps[6]);
+        currentWaypointIndex = 0;
+    }
+
+    public void GoToRadar()
+    {
+        graph.AStar(currentNode, wps[7]);
+        currentWaypointIndex = 0;
+    }
+
+    public void GoToOilPumps()
+    {
+        graph.AStar(currentNode, wps[9]);
+        currentWaypointIndex = 0;
+    }
+
+    public void GoToTankers()
+    {
+        graph.AStar(currentNode, wps[11]);
+        currentWaypointIndex = 0;
+    }
+    public void GoToCmdCenter()
+    {
+        graph.AStar(currentNode, wps[15]);
         currentWaypointIndex = 0;
     }
 }
