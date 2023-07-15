@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Milestone2_CarSimulation.unity
-    guid: daa04b33cc5de484ca871cc4c31a5669
+    path: Assets/station.unity
+    guid: 4c1afca1818c548d785d4dc3ec762ac7
   m_configObjects: {}
