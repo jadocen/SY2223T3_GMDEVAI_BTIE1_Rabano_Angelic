@@ -22,7 +22,7 @@ public class AgentManager : MonoBehaviour
         {
             foreach (GameObject ai in agents)
             {
-                ai.GetComponent<AIControl>().agent.SetDestination(player.transform.position);
+                ai.GetComponent<AIControlBase>().agent.SetDestination(player.transform.position);
             }
         }
     }

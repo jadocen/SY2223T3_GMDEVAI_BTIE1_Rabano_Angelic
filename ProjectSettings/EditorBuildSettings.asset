@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Milestone5Pathfinding.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Starter.unity
+    guid: 755b66827cdf97e4ab621d208be53772
   m_configObjects: {}
